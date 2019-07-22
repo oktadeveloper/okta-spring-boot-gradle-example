@@ -44,7 +44,7 @@ public class HelloControllerTest {
             .andExpect(status().isOk())
             .andExpect(content().string(containsString("Hello Mister Tester!")));
     }
-    
+
     @Test
     public void anonymous() throws Exception {
         this.mockMvc
