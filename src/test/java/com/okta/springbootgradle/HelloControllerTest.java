@@ -1,4 +1,4 @@
-package com.okta.springboottokenauth;
+package com.okta.springbootgradle;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
