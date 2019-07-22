@@ -30,26 +30,6 @@ dependencies {
     testImplementation('org.springframework.security:spring-security-test')
 }
 
-println "1"
-
-task howdy {
-    println "2"
-    doLast {
-        println "Howdy"
-    }
+processResources {
+    expand(project.properties)
 }
-
-println "3"
-
-task partner {
-    println "4"
-    doLast {
-        println "Partner"
-    }
-    mustRunAfter howdy
-}
-
-println "5"
-
-howdy.finalizedBy partner
-
