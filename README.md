@@ -1,4 +1,4 @@
-# Gradle Example
+# Gradle + Spring Boot Example
 
 This example shows how to use Gradle with Spring Boot.
 
